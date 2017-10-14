@@ -10,7 +10,7 @@
         <div class="painel">
           <h2 class="painel-titulo">{{foto.titulo}}</h2>
           <div class="painel-corpo">
-            <img :src="foto.url" :alt="foto.titulo">
+            <img class="imagem-responsiva" :src="foto.url" :alt="foto.titulo">
           </div>
         </div>
       </li>
@@ -70,5 +70,9 @@ export default {
   margin: 0 0 15px 0;
   padding: 10px;
   text-transform: uppercase;
+}
+
+.imagem-responsiva {
+  width: 100%;
 }
 </style>
