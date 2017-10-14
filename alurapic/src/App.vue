@@ -41,6 +41,12 @@ export default {
   text-align: center;
 }
 
+.corpo {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  width: 96%;
+}
+
 .lista-fotos {
   list-style: none;
 }
