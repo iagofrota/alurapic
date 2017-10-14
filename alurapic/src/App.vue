@@ -1,10 +1,14 @@
 <!-- alurapic/src/App.vue -->
 
 <template>
-  <div>
-    <h1>{{ titulo }}</h1>
+  <div class="corpo">
+    <h1 class="centralizado">{{ titulo }}</h1>
 
-    <img v-for="foto of fotos" :src="foto.url" :alt="foto.titulo">
+    <ul class="lista-fotos">
+      <li class="lista-fotos-item" v-for="foto of fotos">
+        <img :src="foto.url" :alt="foto.titulo">
+      </li>
+    </ul>
 
   </div>
 </template>
@@ -27,5 +31,15 @@ export default {
 </script>
 
 <style>
+.centralizado {
+  text-align: center;
+}
 
+.lista-fotos {
+  list-style: none;
+}
+
+.lista-fotos-item {
+  display: inline-block;
+}
 </style>
