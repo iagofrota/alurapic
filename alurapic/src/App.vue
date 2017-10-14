@@ -55,6 +55,10 @@ export default {
   display: inline-block;
 }
 
+.imagem-responsiva {
+  width: 100%;
+}
+
 /* estilo do painel */
 
 .painel {
@@ -76,9 +80,5 @@ export default {
   margin: 0 0 15px 0;
   padding: 10px;
   text-transform: uppercase;
-}
-
-.imagem-responsiva {
-  width: 100%;
 }
 </style>
