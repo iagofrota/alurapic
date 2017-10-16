@@ -8,7 +8,7 @@
 </template>
 <script>
 export default {
-
+    props: ['titulo']
 }
 </script>
 <style>
