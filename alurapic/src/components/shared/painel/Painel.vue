@@ -9,14 +9,13 @@
 
 <script>
 export default {
-
     props: ['titulo']
 }
 
 </script>
 
 <style scoped>
-   .painel {
+.painel {
     padding: 0 auto;
     border: solid 2px grey;
     display: inline-block;
@@ -26,19 +25,18 @@ export default {
     height: 100%;
     vertical-align: top;
     text-align: center;
-  }
+}
 
-  .painel .painel-titulo {
+.painel .painel-titulo {
     text-align: center;
     border: solid 2px;
     background: lightblue;
     margin: 0 0 15px 0;
     padding: 10px;
     text-transform: uppercase;
-  }
+}
 
-  * {
-      box-shadow: 5px 5px 5px;
-  }
-
+* {
+    box-shadow: 5px 5px 5px;
+}
 </style>
