@@ -1,7 +1,7 @@
-.DS_Store
-node_modules/
+alurapic/.DS_Store
+alurapic/node_modules/
+alurapic/npm-debug.log
 dist/
-api/npm-debug.log
 npm-debug.log
 
 # VisualStudioCode
