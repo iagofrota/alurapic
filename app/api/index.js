@@ -14,7 +14,8 @@ api.adiciona = function(req, res) {
 api.busca = function(req, res) {
    db.findOne({_id: req.params.fotoId }, function(err, doc) {
         if (err) return console.log(err);
-        res.json(doc);
+        if(doc) return res.json(doc);
+        res.status(404).end();
     });
 };
 
@@ -53,6 +54,25 @@ api.remove = function(req, res) {
         if(numRemoved) res.status(200).end();
         res.status(500).end();
     });
+};
+
+api.listaGrupos = function(req, res) {
+
+    res.json([
+        {
+            _id: 1, 
+            nome: 'esporte'
+        }, 
+        { 
+            _id: 2, 
+            nome: 'lugares', 
+        }, 
+        { 
+            _id: 3, 
+            nome: 'animais'
+        }
+    ]);
+        
 };
 
 
