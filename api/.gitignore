@@ -1,5 +1,21 @@
+<<<<<<< HEAD
+alurapic/.DS_Store
+alurapic/node_modules/
+alurapic/npm-debug.log
+dist/
+npm-debug.log
+
+# VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+=======
 .tmp
 .DS_Store
 .DS_Store?
 node_modules/
 .dpl/
+>>>>>>> first commit
