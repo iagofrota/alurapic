@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 alurapic/.DS_Store
 alurapic/node_modules/
 alurapic/npm-debug.log
@@ -11,3 +12,13 @@ npm-debug.log
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
+=======
+.tmp
+.DS_Store
+.DS_Store?
+node_modules/
+/public/vendor
+/dist
+/scripts
+.dpl/
+>>>>>>> first commit
