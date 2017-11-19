@@ -1,5 +1,9 @@
 <template>
-    <button :class="estiloDoBotao" :type="tipo" @click="disparaAcao()">{{rotulo}}</button>
+    <button 
+    :class="estiloDoBotao" 
+    :type="tipo" 
+    @click="disparaAcao()"
+    estilo="">{{rotulo}}</button>
 </template>
 <script>
 export default {
@@ -14,17 +18,8 @@ export default {
       type: String
     },
 
-    confirmacao: {
-      required: false,
-      default: false,
-      type: Boolean
-    },
-
-    estilo: {
-      required: false,
-      default: "padrao",
-      type: String
-    }
+    confirmacao: Boolean,
+    estilo: String
   },
   methods: {
     disparaAcao() {
